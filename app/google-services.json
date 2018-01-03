@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "197958268408",
+    "firebase_url": "https://food-b3446.firebaseio.com",
+    "project_id": "food-b3446",
+    "storage_bucket": "food-b3446.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197958268408:android:c867b7903930768f",
+        "android_client_info": {
+          "package_name": "com.pooja.food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197958268408-pusheetm9ugg58na8272ql25sekbgmfb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pooja.food",
+            "certificate_hash": "fe7e60dc8c63fe097710a3636ed9c96cc09a047e"
+          }
+        },
+        {
+          "client_id": "197958268408-l0gosq3t96b0aqia9gp8pi6941vpc8c7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pooja.food",
+            "certificate_hash": "a943818b0c7a824ccbd5d46675648fcf2df545a3"
+          }
+        },
+        {
+          "client_id": "197958268408-6ut0ts7vpdqcac1dk3a13r8tofl3huoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzs8tFW0o3POxvBMxaIeaYZk4-sAy4EgA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197958268408-6ut0ts7vpdqcac1dk3a13r8tofl3huoa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
