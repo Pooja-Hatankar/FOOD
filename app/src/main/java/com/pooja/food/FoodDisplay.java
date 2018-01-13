@@ -35,11 +35,11 @@ public class FoodDisplay extends AppCompatActivity {
         mAuth=FirebaseAuth.getInstance();
         recyclerView=findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        loadFood();
+        loadallFood();
 
     }
     private FirebaseRecyclerAdapter<foodmodel, FoodDisplay.MyFoodViewHolder> mAdapter;
-    private void loadFood() {
+    private void loadallFood() {
         String category="frankie";
         mRef=FirebaseDatabase.getInstance().getReference().child("food");
         Query query=mRef.orderByChild("category").equalTo(category);
